@@ -30,4 +30,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add result.png
           git commit -m "update rain composite" || echo "no changes"
-          git push
+          git push --force
